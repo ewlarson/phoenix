@@ -121,7 +121,7 @@ For our chat app, we'll allow anyone to join the `"room:lobby"` topic, but any o
 
 With our channel in place, let's get the client and server talking.
 
-Phoenix projects come with [Brunch](http://www.phoenixframework.org/docs/static-assets) built in, unless disabled with the `--no-brunch` option when you run `mix phx.new`.
+Phoenix projects come with [Brunch](http://brunch.io/) built in, unless disabled with the `--no-brunch` option when you run `mix phx.new`.
 
 If you are using brunch, there's some code in `assets/js/socket.js` that defines a simple client based on the socket implementation that ships with Phoenix.
 
